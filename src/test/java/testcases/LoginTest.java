@@ -5,7 +5,6 @@ import java.io.IOException;
 import org.apache.poi.EncryptedDocumentException;
 import org.testng.Assert;
 import org.testng.ITestResult;
-import org.testng.Reporter;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
@@ -85,7 +84,7 @@ public class LoginTest extends TestBase{
 		{
 			Screenshot.Screenshot1(it.getName());
 		}
-		report.flush();
+		//report.flush();
 		driver.close();
 	}
 
