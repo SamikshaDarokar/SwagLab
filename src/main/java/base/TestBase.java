@@ -8,11 +8,7 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.safari.SafariDriver;
 
-import com.aventstack.extentreports.ExtentReports;
-import com.aventstack.extentreports.ExtentTest;
-
 import io.github.bonigarcia.wdm.WebDriverManager;
-import utility.Extent_Reports;
 import utility.ReadData;
 
 public class TestBase {

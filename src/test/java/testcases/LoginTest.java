@@ -80,11 +80,13 @@ public class LoginTest extends TestBase{
 	@AfterMethod //(alwaysRun = true)
 	public void closeBrowser(ITestResult it) throws IOException
 	{
-		if(it.FAILURE==it.getStatus())
+		/*
+		 if(ITestResult.FAILURE==it.getStatus())
 		{
 			Screenshot.Screenshot1(it.getName());
 		}
 		//report.flush();
+		 */
 		driver.close();
 	}
 

@@ -4,7 +4,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import base.TestBase;
-import net.bytebuddy.asm.MemberSubstitution.FieldValue;
 import utility.HandleDropDownList;
 
 public class InventoryPage extends TestBase 
