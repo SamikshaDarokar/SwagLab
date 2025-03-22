@@ -14,7 +14,6 @@ import org.testng.asserts.SoftAssert;
 import base.TestBase;
 import pages.Login;
 import utility.ReadData;
-import utility.Screenshot;
 
 public class LoginTest extends TestBase{
 	
@@ -40,7 +39,7 @@ public class LoginTest extends TestBase{
 				};
 	}
 	
-	@Test //(dataProvider="ValidationForLogin")
+	@Test (dataProvider="ValidationForLogin")
 	public void verifyMultiCreds(String username, String password)
 	{
 		SoftAssert sa= new SoftAssert();
