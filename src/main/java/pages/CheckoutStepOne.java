@@ -20,9 +20,9 @@ public class CheckoutStepOne extends TestBase
 		@FindBy(xpath = "//span[text()='Checkout: Your Information']") private WebElement checkoutYourInfo;
 		
 		//Error msg element
-		@FindBy(xpath = "//h3[text()='Error: First Name is required']']") private WebElement firstNameErrMsg;
-		@FindBy(xpath = "//h3[text()='Error: Last Name is required']']") private WebElement lastNameErrMsg;
-		@FindBy(xpath = "//h3[text()='Error: Postal Code is required']']") private WebElement postalCodeErrMsg;
+		@FindBy(xpath = "//h3[text()='Error: First Name is required']") private WebElement firstNameErrMsg;
+		@FindBy(xpath = "//h3[text()='Error: Last Name is required']") private WebElement lastNameErrMsg;
+		@FindBy(xpath = "//h3[text()='Error: Postal Code is required']") private WebElement postalCodeErrMsg;
 		
 		@FindBy(xpath ="//span[@class='shopping_cart_badge']") private WebElement cartCount;
 		

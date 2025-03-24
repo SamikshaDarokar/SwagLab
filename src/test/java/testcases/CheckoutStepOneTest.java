@@ -4,6 +4,7 @@ import java.io.IOException;
 
 import org.apache.poi.EncryptedDocumentException;
 import org.testng.Assert;
+import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -14,6 +15,7 @@ import pages.CheckoutStepOne;
 import pages.InventoryPage;
 import pages.Login;
 import utility.ReadData;
+import utility.Screenshot;
 
 public class CheckoutStepOneTest extends TestBase
 {
@@ -97,8 +99,14 @@ public class CheckoutStepOneTest extends TestBase
 	}
 	
 	@AfterMethod
-	public void closeBrowser()
+	public void closeBrowser() throws IOException
 	{
+		/*
+		if(it.FAILURE==it.getStatus())
+		{
+			Screenshot.Screenshot1(it.getName());
+		}
+		*/
 		driver.close();
 	}
 
