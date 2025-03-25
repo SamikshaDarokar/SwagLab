@@ -102,7 +102,7 @@ public class CheckoutStepOneTest extends TestBase
 	public void closeBrowser() throws IOException
 	{
 		/*
-		if(it.FAILURE==it.getStatus())
+		 if(it.FAILURE==it.getStatus())
 		{
 			Screenshot.Screenshot1(it.getName());
 		}

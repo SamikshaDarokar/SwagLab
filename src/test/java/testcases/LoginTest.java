@@ -80,7 +80,7 @@ public class LoginTest extends TestBase{
 	public void closeBrowser(ITestResult it) throws IOException
 	{
 		/*
-		 if(ITestResult.FAILURE==it.getStatus())
+		 if(it.FAILURE==it.getStatus())
 		{
 			Screenshot.Screenshot1(it.getName());
 		}
